@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 
+import com.bumptech.glide.Glide;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.firebase.database.DatabaseReference;
@@ -41,6 +42,8 @@ public class MainActivity extends AppCompatActivity {
         linearLayoutManager.setStackFromEnd(true);
         recyclerView.setLayoutManager(linearLayoutManager);
 
+
+
         Query query = mDatabase;
 
         FirebaseRecyclerOptions options = new FirebaseRecyclerOptions.Builder<Tanaman>()
@@ -51,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             protected void onBindViewHolder(@NonNull TanamanViewHolder tanamanViewHolder, int i, @NonNull Tanaman tanaman) {
                 tanamanViewHolder.bindToTanaman(tanaman);
+                Glide.with(MainActivity.this).load(tanaman.getGambar()).into(tanamanViewHolder.ivGambar);
             }
 
             @NonNull

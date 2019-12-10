@@ -10,14 +10,24 @@ public class Tanaman {
     public String nama;
     public String deskripsi;
     public int waktu;
+    public String gambar;
 
     public Tanaman() {
     }
 
-    public Tanaman(String nama, String deskripsi, int waktu) {
+    public Tanaman(String nama, String deskripsi, int waktu, String gambar) {
         this.nama = nama;
         this.deskripsi = deskripsi;
         this.waktu = waktu;
+        this.gambar = gambar;
+    }
+
+    public String getGambar() {
+        return gambar;
+    }
+
+    public void setGambar(String gambar) {
+        this.gambar = gambar;
     }
 
     public String getNama() {
@@ -50,6 +60,7 @@ public class Tanaman {
         result.put("nama", nama);
         result.put("deskripsi", deskripsi);
         result.put("waktu", waktu);
+        result.put("gambar", gambar);
         return result;
     }
 
