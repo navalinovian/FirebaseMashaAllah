@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "496260783200",
+    "firebase_url": "https://fir-mashaallah.firebaseio.com",
+    "project_id": "fir-mashaallah",
+    "storage_bucket": "fir-mashaallah.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:496260783200:android:cd23a5bbb39cdddd3c7705",
+        "android_client_info": {
+          "package_name": "com.example.firebasemashaallah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "496260783200-menrj244i5bmvfk8ovegbrt1au7i7qpd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebasemashaallah",
+            "certificate_hash": "5f814f61a9fd5f700904e9e6a8c2e38a90681f09"
+          }
+        },
+        {
+          "client_id": "496260783200-5c0vd5fu1vio4vt5897taolgue5lm5un.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXSSgn2jUd8-9jiWRVcB-f6DMjmFx0d58"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "496260783200-5c0vd5fu1vio4vt5897taolgue5lm5un.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
